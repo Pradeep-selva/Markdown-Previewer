@@ -1,0 +1,19 @@
+body{
+  background: #f7fafa;
+  font-family: 'Playfair Display', serif;
+  animation: fade 2s ease-in;
+}
+
+@keyframes fade{
+  from{
+    opacity: 0;
+    position: relative;
+    top: 2px;
+  }
+
+  to{
+    opacity: 1;
+    position: relative;
+    top: 0px;
+  }
+}
